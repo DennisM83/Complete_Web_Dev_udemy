@@ -1,0 +1,310 @@
+body {
+		
+			margin: 				0;
+			padding: 				0;
+			font-family: 			Helvetica, Arial, sans-serif;
+		
+		}
+	
+	
+	/******************* TOP MENU *******************************/
+	
+	
+		#topbar {
+		
+			margin: 				0 auto;
+			width: 					1000px;
+			height: 				40px;
+		}
+		
+		
+		#logo {
+		
+			margin-top: 			8px;
+			width: 					100px;
+			float: 					left;
+			margin-right: 			8px;
+			
+		}
+		
+		.topbar-section {
+		
+			float: 					left;
+			border-left: 			1px #cccccc solid;
+			height: 				100%;
+		
+		}
+		
+		#signin-logo {
+			
+			width: 					25px;
+			margin: 				12px 15px;
+			float: 					left;
+			
+		}
+		
+		#signin-text {
+		
+			font-weight: 			bold;
+			font-size: 				90%;
+			position: 				relative;
+			top: 					14px;
+			padding-right: 			50px;
+		}
+		
+		top-border {
+		
+			float: 					right;
+			border-left: 			1px #cccccc solid;
+			height: 				100%;
+		
+		}
+		
+		.topbar-menu {
+		
+			float: 					right;
+		}
+		
+		.menu-text {
+		
+			font-weight: 			bold;
+			margin: 				15px;
+			position: 				relative;
+			top: 					14px;
+			font-size: 				14px;
+		
+		}
+		
+		#menu-tab {
+		
+			float: 					right;
+			padding: 				9px;
+			width: 					25px;
+			height: 				25px;
+			margin-top: 			3px;
+			margin-left: 			15px;
+			
+		}
+		
+		
+
+		#search-bar {
+		
+			float: 					right;
+			width: 					160px;
+			height: 				20px;
+			margin-top: 			15px;
+			margin-left: 			15px;
+			
+		}
+
+	
+	/**********************************************/	
+	
+	
+	/************ NEWS HEADLINE *******************/
+	
+		#red-headline-news {
+		
+			background-color: 		#BB1919;
+			padding-top: 			5px;
+			padding-bottom: 		5px;
+		
+		}
+		
+		#red-headline-text {
+		
+			margin-left: 			136px;
+			color: 					#fff;
+			font-size: 				275%;
+ 
+		}
+		
+	
+	/****************************************************/
+	
+	
+	/**************** BOTTOM NAV MENU *******************/
+		
+		
+		#red-headline-nav {
+		
+			background-color: 		#A91717;
+			padding-top: 			10px;
+			padding-bottom: 		10px;
+		
+		}
+		
+		.dark-red-first {
+		
+			margin-left: 			136px;
+			color: 					#FFF;
+			font-size: 				14px;
+			padding-right: 			7px;
+		}
+		
+		.dark-red-text {
+		
+			color: 					#FFF;
+			font-size: 				14px;
+			border-left: 			1px #BB4545 solid;
+			padding-left: 			12px;
+			padding-right: 			7px;
+		}
+		
+		.dark-red-section {
+		
+			float: 					right;
+			border-left: 			1px #D58D8D solid;
+			height: 				100%;
+		
+		}
+		
+		#red-menu-tab {
+		
+			height: 				20px;
+			width:  				20px;
+		
+		}
+	
+	/************************************************/
+	
+	
+	/******************* ARTICLE *******************/
+
+		
+		.article {
+		
+			margin-top: 			127px;
+			margin-left: 			150px;
+			clear: 					left;
+		
+		}
+		
+		#tech-head-text {
+		
+			font-size: 				20px;
+			border-bottom: 			3px solid #BB1919;
+			width: 					100%;
+		
+		}
+		
+		h1 a {
+			
+			color: 					#686868;
+			text-decoration: 		none;
+			
+		}
+		
+		h1 a:hover {
+		
+			color: 					#2767A8;
+		
+		}
+		
+		#article-summary {
+			
+			color: 					#5A5A5A;
+			width: 					230px;
+			float: 					left;
+			
+		}
+		
+	
+		p {
+		
+			font-size: 				14px;
+			line-height: 			1.4;
+			
+		}
+
+		
+		#article-summary img {
+		
+			height: 				23px;
+			position: 				relative;
+			top: 					2px;
+		
+		}
+		
+		#tech-link {
+		
+			text-decoration: 		none;
+			color: 					#A91717;
+			border-left: 			1px #CCCCCC solid;
+			padding-left: 			5px;
+			
+		}
+		
+		#date {
+		
+			padding-right: 			3px;
+		
+		}
+		
+		#tech-link:hover {
+		
+			color: 					#2767A8;
+		
+		}
+		
+		#article-hr {
+		
+			border-top: 			1px #A91717 solid;
+			width: 					50px;
+		
+		}
+		
+		.article-links {
+		
+			color: 					black;
+			text-decoration: 		none;
+			font-size: 				14px;
+		}
+		
+		.article-links:hover {
+		
+			color: 					#2767A8;
+		
+		}
+		
+		#main-article-img {
+		
+			width: 					400px;
+			clear: 					both;
+		}
+		
+		#sidebar-ad {
+		
+			float: 					right;
+			padding-right: 			200px;
+			position: 				relative;
+			bottom: 				25px;
+		
+		}
+
+		#sprint-ad {
+		
+			width: 					270px;
+			height: 				400px;
+			
+		
+		}
+		
+		#banner-ad {
+		
+			
+			width: 					720px;
+			height: 				100px;
+		
+		
+		}
+		
+		#ad-banner {
+		
+			position: 				relative;
+			top: 					-100px;
+			left: 					75px;
+			bottom:					-75px;
+		
+		}
