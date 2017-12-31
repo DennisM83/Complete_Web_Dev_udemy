@@ -1,0 +1,48 @@
+<html>
+
+	<head>
+
+		<title></title>
+
+
+	</head>
+
+	<body>
+
+		<p>What is the magic word?</p>
+		
+		<input type="text" id="theWord">
+		
+		<p><button id=password>off we go!</button></p>
+		
+		<script type="text/javascript">
+		
+		
+			document.getElementById("password").onclick = function () {
+			
+				var passwordText = "";
+				
+				passwordText = document.getElementById("theWord").value;
+				
+				var myPassword = "magic";
+				
+				if (passwordText == myPassword) {
+				
+					alert("Welcome Dennis!");
+				
+				} else {
+				
+					alert("That's not the magic word!");
+				
+				}
+			
+		}
+			
+			
+			
+			
+		</script>
+
+	</body>
+
+</html>

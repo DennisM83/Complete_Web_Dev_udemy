@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+
+	</head>
+
+	<body>
+
+
+		<p>Your time: <span id="timeTaken"></p>
+	
+		<button id="timeButton">Click here</button>
+	
+	<script type="text/javascript">
+	
+	var start = new Date().getTime();
+		
+		document.getElementById("timeButton").onclick = function() {
+		
+			var end = new Date().getTime();
+			
+			var theTime = (end - start) / 1000;
+			
+			document.getElementById("timeTaken").innerHTML = theTime + "s";
+			
+			
+		}
+		
+		
+	
+	</script>
+	</body>
+</html>
